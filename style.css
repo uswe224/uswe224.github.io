@@ -1,0 +1,20 @@
+.container{
+    justify-content: space-between;
+    display: flex;
+}
+.qwe>a{
+    margin: 15px;
+    padding: 2px;
+}
+.rty>a{
+    margin: 15px;
+    padding: 2px;
+}
+.photo{
+    text-align: center;
+    padding: 100px;
+}
+.demo{
+    padding: 3px;
+    background-color: rgb(74, 74, 219);
+}
