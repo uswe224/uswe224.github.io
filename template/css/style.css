@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+    font-size: medium;
+}
+
+button{
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    font-size: medium;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.items{
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.item{
+    border: 1px solid gray;
+    box-shadow: 5px 5px 5px gray;
+    padding: 5px;
+}
+
+.item img{
+    width: 100%;
+}
+
+.position{
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.position img{
+    width: 100%;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.machine{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+select{
+    margin: 5px;
+    font-size: medium;
+}
+
+.items-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+}
+
+.pc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-left, .info-right{
+    margin: 50px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shema{
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 10px;
+}
+
+.component{
+    border: 1px dashed blue;
+    width: 200px;
+    height: 200px;
+}
